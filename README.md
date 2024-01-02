@@ -80,7 +80,7 @@ Indexes:
 - 2nd level connection search take an average of 30ms (Default case)
 - 3rd level connection search take an average of 400ms 
 - 4th level connection search take an average of 1.5s
-- Adjust the level [here](https://google.com) to enable 3/4th level connection badges
+- Adjust the level [here](https://github.com/Ansh-dhingra/user-friendship-management/blob/20cfe0bb7bf4c009c2fdf4ac01a69f135f721450/src/services/searchService.js#L17) to enable 3/4th level connection badges
 
 How to improve the performance?
 - If we store the depth of the user-friend and beyond as defined level relationship while adding and handle the same in removal in friends table we could potentially be saving a lot of processing at the database layer by escaping the recursive joins at each incremental level
