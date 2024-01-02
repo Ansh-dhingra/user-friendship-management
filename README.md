@@ -92,6 +92,7 @@ Drawbacks
 - Also consider adding another column to store the original association of the friend in case of removal only the linked friendId connection should be removed
 
 4) ✅ Do you have any additional recommendations about how this service should be set up that might go beyond constraints set below? 
+
 \
 Different SQL Database 
 - Using a different database such as PostgreSQL will help us with large dataset, scalability & high number of concurrent user connections
